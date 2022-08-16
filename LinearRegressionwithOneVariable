@@ -1,7 +1,3 @@
-
-
-
-
 # Linear regresson with one variable. It can be utilised for developing linear regression models with one variable.
 
 # Importing the important libraries
@@ -149,10 +145,7 @@ predicted = np.zeros(m)
 
 for i in range(m):
     predicted[i] = w * x_train[i] + b
-
-
-#
-
+    
 # Plot the linear fit
 plt.plot(x_train, predicted, c = "b")
 
